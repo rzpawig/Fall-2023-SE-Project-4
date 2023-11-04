@@ -91,12 +91,12 @@ public class HomeController {
     public static void main(String[] args) {
         HomeController controller = new HomeController();
 
-        controller.createUser("user1", "Password123!");
-        controller.createUser("user2", "Password456@");
-        controller.createUser("user2", "Password897!");
+        controller.createUser("user1", "Password123!"); //Should be successful
+        controller.createUser("user2", "Password456@"); //Should be successful
+        controller.createUser("user2", "Password897!"); //Should fail (duplicate username)
 
         controller.authenticate("user1", "Password123!"); // Should be successful
-        controller.authenticate("user2", "WrongPassword");  // Should fail
+        controller.authenticate("user2", "WrongPassword");  // Should fail 
     }
 
 
