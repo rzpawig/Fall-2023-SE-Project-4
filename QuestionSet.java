@@ -1,28 +1,54 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class QuestionSet {
 
-  private int setID;
+  // Unique id for each QuestionSet
+  private String setID;
+
+  // Name of the question set
   private String name;
+
+  // Description providing details
   private String description;
-  private ArrayList<Question> questions = new ArrayList<>();
 
+  // List to store QuestionObj objects
+  private ArrayList<QuestionObj> questions;
+
+  /*
+  Constructor to initialize attributes
+  Generate random ID, set default name and description
+  Initialize empty questions list
+  */
   public QuestionSet() {
-    this.setID = (int)(Math.random() * 1000000) % 10000;
-    this.name = "Unnamed Set";
-    this.description = "No description";
+    this.setID = generateID();
+    this.name = "Unnamed Question Set";
+    this.description = "No Description";
+    this.questions = new ArrayList<QuestionObj>();
   }
 
-  public void setName(String name) {
+  // Generate random id as placeholder
+  private String generateID() {
+    return "" + (int)(Math.random() * 10000);
+  }
+
+  /*
+  Create new question set
+  Update name and description
+  */
+  public void createQuestionSet(String name, String desc) {
     this.name = name;
+    this.description = desc;
   }
 
-  public void setDescription(String description) {
-    this.description = description;
+  // View details of question set
+  public void viewSet() {
+    // Print name, description and questions
   }
 
-  public int getSetID() {
-    return setID;
+  // Getter methods
+  public String getSetID() {
+    return setID; 
   }
 
   public String getName() {
@@ -33,65 +59,67 @@ public class QuestionSet {
     return description;
   }
 
-  public void addQuestion() {
-    Question question = new Question();
-    this.questions.add(question);
+  public ArrayList<QuestionObj> getQuestions() {
+    return questions;
   }
 
-  public void removeQuestion(int index) {
-    this.questions.remove(index);
+  // Add new question 
+  public void addQuestion(QuestionObj q) {
+    questions.add(q);
   }
 
-  public void viewSet() {
-    if (questions.isEmpty()) {
-      System.out.println("No questions in set.");
-    } else {
-      for (int i = 0; i < questions.size(); i++) {
-        System.out.println(i+1 + ". Question: " + questions.get(i).getText());
-      }
-    }
-  }
-  
-  public class Question {
-    private String text;
-    private String answer;
-  
-    public Question() {
-      this.text = "Unnamed";
-      this.answer = "Undefined";
-    }
+  // TEST CASES
 
-    // getters and setters
-  }
-
-  // Test cases
-
+  // Test case 1: Create new question set
   @Test
-  
-  public void testUpdateQuestion() {
+  public void testCreateQuestionSet() {
+
+    Scanner scanner = new Scanner(System.in);
+
+    // User input for new set's name and description
+    System.out.print("Enter name: ");
+    String name = scanner.nextLine();
+
+    System.out.print("Enter description: ");
+    String desc = scanner.nextLine();
+
     QuestionSet set = new QuestionSet();
-    set.addQuestion();
-    set.viewSet();
+    set.createQuestionSet(name, desc);
 
-    // Update question
-    set.questions.get(0).setText("Filler");
-    set.questions.get(0).setAnswer("Filler");
+    // Verify name and description updated
+    assertEquals(name, set.getName()); 
+    assertEquals(desc, set.getDescription());
 
-    assertEquals("Filler", set.questions.get(0).getText());
-    assertEquals("Filler", set.questions.get(0).getAnswer());
   }
 
+  // Test case 2: Add new question
   @Test
-  
-  public void testRemoveQuestion() {
-    QuestionSet set = new QuestionSet();
-    set.addQuestion();
-    set.addQuestion();
-   
-    assertEquals(2, set.questions.size());
+  public void testAddQuestion() {
 
-    set.removeQuestion(0);
-    assertEquals(1, set.questions.size());
+    QuestionSet set = new QuestionSet();
+    
+    // Create new QuestionObj
+    QuestionObj q1 = new QuestionObj();
+    q1.setQuestion("Filler");
+    q1.setAnswer("Filler");
+
+    // Add question
+    set.addQuestion(q1);
+
+    // Verify question added
+    assertEquals(1, set.getQuestions().size());
+    assertEquals(q1, set.getQuestions().get(0));
+
   }
+
+}
+
+// QuestionObj class
+class QuestionObj {
+
+  private String question;
+  private String answer;
+
+  // Getters and setters 
 
 }
