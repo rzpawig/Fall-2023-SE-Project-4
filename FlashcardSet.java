@@ -10,7 +10,7 @@ public class FlashcardSet { // class that maintains a set of flashcards user cre
     ArrayList<Flashcard> setList = new ArrayList<>(); // arraylist of individual flashcards in set
 
     public FlashcardSet() {
-        this.setID = (int) Math.random() % 10000; // (placeholder assignment --> final product will ensure a unique id)
+        this.setID = (int) (Math.random() * 1000000) % 10000; // (placeholder assignment --> final product will ensure a unique id)
         this.name = "Unnamed Set";
         this.description = "No description";
     }
@@ -56,7 +56,7 @@ public class FlashcardSet { // class that maintains a set of flashcards user cre
             }
         }
     }
-    public class Flashcard { // class for individual flashcard
+    public static class Flashcard { // class for individual flashcard
 
         String term;
         String definition;
@@ -183,14 +183,16 @@ public class FlashcardSet { // class that maintains a set of flashcards user cre
                         }
                         testSet.removeFlashcard(cardNum-1);
                     }
+                    break;
                 case 8:
+                    System.out.println("Exiting...");
                     break loop;
                 default: // when user inputs a wrong choice
                     System.out.println("Not an option. Try again.\n");
             }
-            
+
         }
-        
+
     }
-    
+
 }
