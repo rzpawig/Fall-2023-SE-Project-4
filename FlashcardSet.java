@@ -1,6 +1,5 @@
 import java.util.*;
 // class written by Roj
-// test cases provided by ...
 
 public class FlashcardSet { // class that maintains a set of flashcards user creates/uses/owns
 
