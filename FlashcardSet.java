@@ -85,7 +85,7 @@ public class FlashcardSet { // class that maintains a set of flashcards user cre
 
 
     /*
-    Test case one: Updating a flashcard by
+    Test case one (Gaurav): Updating a flashcard by
     When creating a new flashcard, the term and definition are defaulted to unnamed/undefined.
     Users should be able to update the flashcard.
     Output should correctly correspond to what user inputted.
@@ -93,7 +93,7 @@ public class FlashcardSet { // class that maintains a set of flashcards user cre
      */
 
     /*
-    Test case two: Removing a flashcard by
+    Test case two (Gaurav): Removing a flashcard by
     Removing a flashcard is only possible if set has existing flashcards, denying users the option if set is empty.
     Users should be able to remove a flashcard based on the card number.
     Set should be updated correctly based on the user's choice.
