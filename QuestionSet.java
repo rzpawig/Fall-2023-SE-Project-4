@@ -1,3 +1,6 @@
+//Abhizeet Bomma
+//Test cases provided by Sruti
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -71,6 +74,7 @@ public class QuestionSet {
   // TEST CASES
 
   // Test case 1: Create new question set
+  // Tests whether users can create a new question set by entering the name and the description
   @Test
   public void testCreateQuestionSet() {
 
@@ -93,6 +97,7 @@ public class QuestionSet {
   }
 
   // Test case 2: Add new question
+  // Tests whether the user can add a new question to a question set
   @Test
   public void testAddQuestion() {
 
