@@ -1,0 +1,221 @@
+.index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .index .overlap {
+    height: 96px;
+    left: 186px;
+    position: absolute;
+    top: 136px;
+    width: 1079px;
+  }
+  
+  .index .rectangle {
+    height: 72px;
+    left: 121px;
+    position: absolute;
+    top: 12px;
+    width: 838px;
+  }
+  
+  .index .signup-title {
+    height: 96px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1079px;
+  }
+  
+  .index .overlap-group {
+    height: 96px;
+    position: relative;
+    width: 1077px;
+  }
+  
+  .index .text-wrapper {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1077px;
+  }
+  
+  .index .overlap-2 {
+    height: 345px;
+    left: -1px;
+    position: absolute;
+    top: 806px;
+    width: 1442px;
+  }
+  
+  .index .footer {
+    background-color: #a48f8f;
+    border: 1px solid;
+    border-color: #000000;
+    height: 91px;
+    left: 0;
+    position: absolute;
+    top: 128px;
+    width: 1442px;
+  }
+  
+  .index .logo {
+    height: 345px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 328px;
+  }
+  
+  .index .authentication-group {
+    height: 287px;
+    left: 522px;
+    position: absolute;
+    top: 369px;
+    width: 396px;
+  }
+  
+  .index .overlap-3 {
+    background-color: #a59090;
+    border: 1px solid;
+    border-color: #000000;
+    height: 289px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 398px;
+  }
+  
+  .index .overlap-4 {
+    height: 52px;
+    left: 44px;
+    position: absolute;
+    top: 46px;
+    width: 313px;
+  }
+  
+  .index .img {
+    height: 52px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 312px;
+  }
+  
+  .index .username-group {
+    height: 48px;
+    left: 1px;
+    position: absolute;
+    top: 3px;
+    width: 312px;
+  }
+  
+  .index .username {
+    background-color: transparent;
+    border: 0;
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    width: 310px;
+  }
+  
+  .index .password-group {
+    height: 50px;
+    left: 44px;
+    position: absolute;
+    top: 118px;
+    width: 312px;
+  }
+  
+  .index .password-wrapper {
+    background-image: url(https://cdn.animaapp.com/projects/655291c9101ba6f66f8e4e7a/releases/65554139609256ee35d8be27/img/rectangle-24.png);
+    background-size: 100% 100%;
+    height: 52px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .index .password {
+    background-color: transparent;
+    border: 0;
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 48px;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: relative;
+    top: 3px;
+    width: 310px;
+  }
+  
+  .index .submit-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 50px;
+    left: 110px;
+    position: absolute;
+    top: 219px;
+    width: 179px;
+  }
+  
+  .index .div-wrapper {
+    background-image: url(https://cdn.animaapp.com/projects/655291c9101ba6f66f8e4e7a/releases/65554139609256ee35d8be27/img/rectangle-23.png);
+    background-size: 100% 100%;
+    height: 52px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .index .text-wrapper-2 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2px;
+  }
+  
+  .index .header {
+    background-color: #a48f8f;
+    border: 1px solid;
+    border-color: #000000;
+    height: 91px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 1442px;
+  }
+  
