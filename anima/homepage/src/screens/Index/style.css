@@ -1,0 +1,259 @@
+.index {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.index .div {
+  background-color: #ffffff;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.index .overlap {
+  height: 345px;
+  left: -1px;
+  position: absolute;
+  top: 806px;
+  width: 1442px;
+}
+
+.index .footer {
+  background-color: #a48f8f;
+  border: 1px solid;
+  border-color: #000000;
+  height: 91px;
+  left: 0;
+  position: absolute;
+  top: 127px;
+  width: 1442px;
+}
+
+.index .logo {
+  height: 345px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 328px;
+}
+
+.index .overlap-group {
+  background-color: #a48f8f;
+  border: 1px solid;
+  border-color: #000000;
+  height: 91px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 1442px;
+}
+
+.index .rectangle {
+  height: 52px;
+  left: 1107px;
+  position: absolute;
+  top: 18px;
+  width: 312px;
+}
+
+.index .text-wrapper {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1180px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+  width: 166px;
+}
+
+.index .homepage-title {
+  height: 96px;
+  left: 188px;
+  position: absolute;
+  top: 142px;
+  width: 1079px;
+}
+
+.index .overlap-group-2 {
+  height: 96px;
+  position: relative;
+  width: 1077px;
+}
+
+.index .img {
+  height: 72px;
+  left: 121px;
+  position: absolute;
+  top: 12px;
+  width: 838px;
+}
+
+.index .text-wrapper-2 {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1077px;
+}
+
+.index .chatbot-group {
+  height: 237px;
+  left: 960px;
+  position: absolute;
+  top: 341px;
+  width: 398px;
+}
+
+.index .overlap-2 {
+  background-image: url(https://cdn.animaapp.com/projects/655291c9101ba6f66f8e4e7a/releases/65554139609256ee35d8be27/img/rectangle-5.svg);
+  background-size: 100% 100%;
+  height: 239px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 396px;
+}
+
+.index .div-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/655291c9101ba6f66f8e4e7a/releases/65554139609256ee35d8be27/img/rectangle-33.svg);
+  background-size: 100% 100%;
+  height: 45px;
+  left: 27px;
+  position: absolute;
+  top: 22px;
+  width: 342px;
+}
+
+.index .text-wrapper-3 {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 308px;
+}
+
+.index .p {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  width: 208px;
+}
+
+.index .flashcarddeck-group {
+  height: 237px;
+  left: 530px;
+  position: absolute;
+  top: 341px;
+  width: 398px;
+}
+
+.index .overlap-group-3 {
+  background-image: url(https://cdn.animaapp.com/projects/655291c9101ba6f66f8e4e7a/releases/65554139609256ee35d8be27/img/rectangle-33.svg);
+  background-size: 100% 100%;
+  height: 45px;
+  left: 29px;
+  position: absolute;
+  top: 22px;
+  width: 342px;
+}
+
+.index .text-wrapper-4 {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 308px;
+}
+
+.index .text-wrapper-5 {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 104px;
+  width: 208px;
+}
+
+.index .questionset-group {
+  height: 237px;
+  left: 103px;
+  position: absolute;
+  top: 341px;
+  width: 398px;
+}
+
+.index .overlap-group-4 {
+  background-image: url(https://cdn.animaapp.com/projects/655291c9101ba6f66f8e4e7a/releases/65554fe12462860cc2d038de/img/rectangle-30.svg);
+  background-size: 100% 100%;
+  height: 46px;
+  left: 27px;
+  position: absolute;
+  top: 21px;
+  width: 342px;
+}
+
+.index .text-wrapper-6 {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 308px;
+}
+
+.index .text-wrapper-7 {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  width: 208px;
+}
