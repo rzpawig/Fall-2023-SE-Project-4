@@ -11,7 +11,7 @@ import tkinter as tk
 import openai
 
 #TYPE IN YOUR API KEY
-api_key = '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'
+api_key = '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'
 
 def generate_flashcards():
     process_text("Can you make flashcards of the main points separated by a new line from the following text: {}")
